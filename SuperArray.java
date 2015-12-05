@@ -179,8 +179,8 @@ public class SuperArray implements ListInt {
 	//*****INSERT ANY ADDITIONAL TEST CALLS HERE*****
 	
 	ListInt leche = new SuperArray();
-	System.out.println("Printing empty SuperArray mayfield...");
-	System.out.println(mayfield);
+	System.out.println("Printing empty LastInt leche...");
+	System.out.println(leche);
 
 	leche.add(5);
 	leche.add(4);
@@ -188,25 +188,35 @@ public class SuperArray implements ListInt {
 	leche.add(2);
 	leche.add(1);
 
-	System.out.println("Printing populated SuperArray leche...");
+	System.out.println("Printing populated ListInt leche...");
 	System.out.println(leche);
 
 	leche.remove(3);
-	System.out.println("Printing SuperArray leche post-remove...");
+	System.out.println("Printing ListInt leche post-remove...");
 	System.out.println(leche);
 	leche.remove(3);
-	System.out.println("Printing SuperArray leche post-remove...");
+	System.out.println("Printing ListInt leche post-remove...");
 	System.out.println(leche);
 
 	leche.add(3,99);
-	System.out.println("Printing SuperArray leche post-insert...");
+	System.out.println("Printing ListInt leche post-insert...");
 	System.out.println(leche);
 	leche.add(1,88);
-	System.out.println("Printing SuperArray leche post-insert...");
+	System.out.println("Printing ListInt leche post-insert...");
 	System.out.println(leche);
 	leche.add(1,77);
-	System.out.println("Printing SuperArray leche post-insert...");
+	System.out.println("Printing ListInt leche post-insert...");
 	System.out.println(leche);
+
+	System.out.println("Printing value at index 2");
+	System.out.println(leche.get(2));
+	
+	System.out.println("Setting value at index 2 to 99");
+	leche.set(2,99);
+	System.out.println(leche);
+
+	System.out.println("Printing the size of leche");
+	System.out.println(leche.size());
 
     }//end main
 		
